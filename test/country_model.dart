@@ -1,5 +1,6 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'dart:convert';
+
+String countryStateModelToJson(Country data) => json.encode(data.toJson());
 
 class Country {
   final String name;
@@ -14,34 +15,61 @@ class Country {
     required this.states,
   });
 
-  factory Country.fromJson(String json) {
-    return Country.fromMap(jsonDecode(json));
-  }
-
-  Map<String, dynamic> toMap() {
-    return <String, dynamic>{
-      'name': name,
-      'iso3': iso3,
-      'iso2': iso2,
-      'states': states.map((x) => x.toMap()).toList(),
-    };
-  }
-
   factory Country.fromMap(Map map) {
-    final states = (map["states"] as List).map((map) => State.fromMap(map));
     return Country(
-      name: map["name"],
-      iso2: map["iso2"],
-      iso3: map["iso3"],
-      states: states.toList(),
+      name: map['name'] as String,
+      iso2: map['iso2'] as String,
+      iso3: map['iso3'] as String,
+      states: (map["states"] as List).map((map) => State.fromMap(map)).toList(),
     );
+  }
+
+  List<Country> fromListMap(List list) {
+    return list.map((map) => Country.fromMap(map)).toList();
+  }
+
+  static Map<String, dynamic> toMapList(List data) {
+    return data.map((x) => x.toMap()).toList();
   }
 
   String toJson() => json.encode(toMap());
 
-  static List<Country> fromListMap(List list) {
-    return list.map((map) => Country.fromMap(map)).toList();
+  Map<String, dynamic> toMap() {
+    return <String, dynamic>{
+      'name': name,
+      'iso2': iso2,
+      'iso3': iso3,
+      'states': states.map((x) => x.toMap()).toList(),
+    };
   }
+
+  Map<String, dynamic> toJson() => {
+        "name": name,
+        "iso3": iso3,
+        "iso2": iso2,
+        "states": List<dynamic>.from(states.map((x) => x.toJson())),
+      };
+
+  factory Country.fromJson(Map<String, dynamic> map) => Country(
+        name: map["name"] as String,
+        iso2: map["iso2"] as String,
+        iso3: map["iso3"] as String,
+        states:
+            (map["states"] as List).map((map) => State.fromMap(map)).toList(),
+        //List<Datum>.from(json["data"].map((x) => Datum.fromJson(x))),
+      );
+
+  // factory Country.fromJson(String source) =>
+  //     Country.fromMap(json.decode(source) as Map<String, dynamic>);
+
+  // Map<String, dynamic> toJson() => {
+  //       "name": name,
+  //       "iso3": iso3,
+  //       "iso2": iso2,
+  //       "states": List<dynamic>.from(states.map((x) => x.toJson())),
+  //     };
+
+//   static String toJson(String source) => json.encode(toMapList(source));
 }
 
 class State {
@@ -58,6 +86,11 @@ class State {
       'name': name,
     };
   }
+
+  Map<String, dynamic> toJson() => {
+        "id": id,
+        "name": name,
+      };
 
   factory State.fromMap(Map map) {
     return State(
@@ -81,7 +114,39 @@ class City {
     );
   }
 
-  static List<City> fromlistMap(List list) {
+  List<City> fromlistMap(List list) {
     return list.map((map) => City.fromMap(map)).toList();
   }
 }
+
+
+
+
+  // factory Country.fromJson(String json) {
+  //   return Country.fromMap(jsonDecode(json));
+  // }
+
+  // Map<String, dynamic> toMap() {
+  //   return <String, dynamic>{
+  //     'name': name,
+  //     'iso3': iso3,
+  //     'iso2': iso2,
+  //     'states': states.map((x) => x.toMap()).toList(),
+  //   };
+  // }
+
+  // factory Country.fromMap(Map map) {
+  //   final states = (map["states"] as List).map((map) => State.fromMap(map));
+  //   return Country(
+  //     name: map["name"],
+  //     iso2: map["iso2"],
+  //     iso3: map["iso3"],
+  //     states: states.toList(),
+  //   );
+  // }
+
+  // String toJson() => json.encode(toMap());
+
+  // static List<Country> fromListMap(List list) {
+  //   return list.map((map) => Country.fromMap(map)).toList();
+  // }
