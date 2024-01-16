@@ -6,9 +6,7 @@ CountryStateModel countryStateModelFromJson(String str) =>
 class CountryStateModel {
   List<Country> data;
 
-  CountryStateModel({
-    required this.data,
-  });
+  CountryStateModel({required this.data});
 
   factory CountryStateModel.fromJson(Map<String, dynamic> json) =>
       CountryStateModel(
@@ -40,9 +38,7 @@ class Country {
 class State {
   String name;
 
-  State({
-    required this.name,
-  });
+  State({required this.name});
 
   factory State.fromJson(Map<String, dynamic> json) => State(
         name: json["name"],

@@ -1,27 +1,24 @@
 import 'package:http/http.dart' as http;
+
 import 'cities_model.dart';
 import 'country_state_model.dart';
-
-Country? country;
-State? state;
-CitiesModel? city;
 
 List<Country> countries = [];
 List<State> states = [];
 List<CitiesModel> cities = [];
 
-CountryStateModel countryStateModel = CountryStateModel(data: []);
+CountryStateModel countryModel = CountryStateModel(data: []);
 CitiesModel citiesModel = CitiesModel(data: []);
 
 main() async {
-  countryStateModel = await getCountriesStates();
+  countryModel = await getCountriesStates();
 
   // get do github
   // json
   // salvar o json localmente
   // na proxima vc nao baixar o json, usa o local
 
-  for (var country in countryStateModel.data) {
+  for (var country in countryModel.data) {
     countries.add(country);
     states.addAll(country.states);
     print('COUNTRY: ${country.name}');

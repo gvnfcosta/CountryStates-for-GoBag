@@ -7,31 +7,28 @@ import 'country_model.dart';
 main() async {
   final dir = Directory.current;
   final jsonCountryFile = File('${dir.path}/assets/countries+states.json');
-  final jsonCityFile = File('${dir.path}/assets/cities.json');
   final jsonCountryString = jsonCountryFile.readAsStringSync();
-  final jsonCityString = jsonCityFile.readAsStringSync();
+  // final jsonCityFile = File('${dir.path}/assets/cities.json');
+  // final jsonCityString = jsonCityFile.readAsStringSync();
 
   final countriesStates = Country.fromListMap(jsonDecode(jsonCountryString));
-  // final countriesStates = Country.toMap(jsonCountryString);
-  // final citiesStates = City.fromlistMap(jsonDecode(jsonCityString));
 
   List<Country> countries = [];
-  List<City> cities = [];
+  // List<City> cities = [];
 
-  countriesStates.forEach((country) {
-    countries.add(
-      Country(
-        name: country.name,
-        iso2: country.iso2,
-        iso3: country.iso3,
-        states: country.states,
-      ),
-    );
-  });
+  // countriesStates.forEach((country) {
+  //   countries.add(
+  //     Country(
+  //       name: country.name,
+  //       iso2: country.iso2,
+  //       iso3: country.iso3,
+  //       states: country.states,
+  //     ),
+  //   );
+  // });
 
-  var goBagCountries = countriesStates;
-
-  var jsonE = countryStateModelToJson(goBagCountries);
+  var jsonE = jsonEncode(countriesStates.map((e) => e.toMap()).toList());
+  // var jsonE = jsonEncode(countriesStates.toListMap());
 
   File('${dir.path}/assets/go_bag_json/countries.json')
       .writeAsStringSync(jsonE);
