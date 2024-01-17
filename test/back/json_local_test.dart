@@ -1,17 +1,20 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'country_model.dart';
+import '../country_state_model.dart';
+import 'country_state_model.dart';
 // import 'json_http_test.dart';
 
 main() async {
   final dir = Directory.current;
-  final jsonCountryFile = File('${dir.path}/assets/countries+states.json');
+  final jsonCountryFile =
+      File('${dir.path}/assets/origin/countries+states.json');
   final jsonCountryString = jsonCountryFile.readAsStringSync();
   // final jsonCityFile = File('${dir.path}/assets/cities.json');
   // final jsonCityString = jsonCityFile.readAsStringSync();
 
-  final countriesStates = Country.fromListMap(jsonDecode(jsonCountryString));
+  final countriesStates =
+      CountriesState.fromListMap(jsonDecode(jsonCountryString));
 
   List<Country> countries = [];
   // List<City> cities = [];
@@ -30,7 +33,7 @@ main() async {
   var jsonE = jsonEncode(countriesStates.map((e) => e.toMap()).toList());
   // var jsonE = jsonEncode(countriesStates.toListMap());
 
-  File('${dir.path}/assets/go_bag_json/countries.json')
+  File('${dir.path}/assets/go_bag_json/countries+states.json')
       .writeAsStringSync(jsonE);
 
   // countries.forEach((country) {

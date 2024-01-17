@@ -1,46 +1,83 @@
-import 'dart:convert';
+class CountriesState {
+  final String name;
+  final String iso2;
+  final String iso3;
+  final Map<String, dynamic> translations; // Correção aqui
+  final List<State> states;
 
-CountryStateModel countryStateModelFromJson(String str) =>
-    CountryStateModel.fromJson(json.decode(str));
-
-class CountryStateModel {
-  List<Country> data;
-
-  CountryStateModel({required this.data});
-
-  factory CountryStateModel.fromJson(Map<String, dynamic> json) =>
-      CountryStateModel(
-        data: List<Country>.from(json["data"].map((x) => Country.fromJson(x))),
-      );
-}
-
-class Country {
-  String name;
-  String iso3;
-  String iso2;
-  List<State> states;
-
-  Country({
+  CountriesState({
     required this.name,
-    required this.iso3,
     required this.iso2,
+    required this.iso3,
+    required this.translations,
     required this.states,
   });
 
-  factory Country.fromJson(Map<String, dynamic> json) => Country(
-        name: json["name"],
-        iso3: json["iso3"],
-        iso2: json["iso2"],
-        states: List<State>.from(json["states"].map((x) => State.fromJson(x))),
+  factory CountriesState.fromMap(Map map) {
+    return CountriesState(
+      name: map['name'] as String,
+      iso2: map['iso2'] as String,
+      iso3: map['iso3'] as String,
+      translations:
+          Map<String, dynamic>.from(map['translations']), // Correção aqui
+      states: (map['states'] as List).map((map) => State.fromMap(map)).toList(),
+    );
+  }
+
+  static List<CountriesState> fromListMap(List list) {
+    return list.map((map) => CountriesState.fromMap(map)).toList();
+  }
+
+  Map<String, dynamic> toMap() {
+    return <String, dynamic>{
+      'name': name,
+      'iso2': iso2,
+      'iso3': iso3,
+      'translations': translations,
+      'states': states.map((state) => state.toMap()).toList(),
+    };
+  }
+
+  static List<Map> toListMap(List<CountriesState> countries) {
+    return countries.map((country) => country.toMap()).toList();
+  }
+
+  factory CountriesState.fromJson(Map<String, dynamic> map) => CountriesState(
+        name: map['name'] as String,
+        iso2: map['iso2'] as String,
+        iso3: map['iso3'] as String,
+        translations:
+            Map<String, dynamic>.from(map['translations']), // Correção aqui
+        states: (map['states'] as List)
+            .map((stateMap) => State.fromMap(stateMap))
+            .toList(),
       );
 }
 
 class State {
-  String name;
+  final int id;
+  final String name;
+  State({
+    required this.id,
+    required this.name,
+  });
 
-  State({required this.name});
+  Map<String, dynamic> toMap() {
+    return <String, dynamic>{
+      'id': id,
+      'name': name,
+    };
+  }
 
-  factory State.fromJson(Map<String, dynamic> json) => State(
-        name: json["name"],
-      );
+  Map<String, dynamic> toJson() => {
+        "id": id,
+        "name": name,
+      };
+
+  factory State.fromMap(Map map) {
+    return State(
+      id: map["id"],
+      name: map["name"],
+    );
+  }
 }

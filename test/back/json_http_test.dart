@@ -1,6 +1,6 @@
 import 'package:http/http.dart' as http;
 
-import 'cities_model.dart';
+import '../cities_model.dart';
 import 'country_state_model.dart';
 
 List<Country> countries = [];
