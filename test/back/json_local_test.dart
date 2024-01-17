@@ -14,7 +14,7 @@ main() async {
   // final jsonCityString = jsonCityFile.readAsStringSync();
 
   final countriesStates =
-      CountriesState.fromListMap(jsonDecode(jsonCountryString));
+      CountryStates.fromListMap(jsonDecode(jsonCountryString));
 
   List<Country> countries = [];
   // List<City> cities = [];
