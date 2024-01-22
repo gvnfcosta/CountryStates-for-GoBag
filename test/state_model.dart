@@ -1,18 +1,18 @@
 class State {
   final int id;
   final String name;
-  final String state_code;
+  final String stateCode;
   State({
     required this.id,
     required this.name,
-    required this.state_code,
+    required this.stateCode,
   });
 
   factory State.fromMap(Map map) {
     return State(
       id: map["id"],
       name: map["name"],
-      state_code: map["state_code"],
+      stateCode: map["stateCode"],
     );
   }
 
@@ -20,7 +20,7 @@ class State {
     return <String, dynamic>{
       'id': id,
       'name': name,
-      'stateCode': state_code,
+      'stateCode': stateCode,
     };
   }
 }

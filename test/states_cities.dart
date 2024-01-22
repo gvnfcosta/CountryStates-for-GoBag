@@ -6,14 +6,13 @@ class StatesCities {
   final int id;
   final String name;
   final String state_code;
-  final int country_id;
+
   final List<City> cities;
 
   StatesCities(
     this.id,
     this.name,
     this.state_code,
-    this.country_id,
     this.cities,
   );
 
@@ -25,7 +24,6 @@ class StatesCities {
       map['id'] as int,
       map['name'] as String,
       map['state_code'] as String,
-      map['country_id'] as int,
       List<City>.from(
         (map['cities'] as List).map((map) => City.fromMap(map)).toList(),
       ),
@@ -37,7 +35,6 @@ class StatesCities {
       'id': id,
       'name': name,
       'state_code': state_code,
-      'country_id': country_id,
       'cities': cities.map((city) => city.toMap()).toList(),
     };
   }

@@ -8,28 +8,46 @@ import 'country_state_model.dart';
 import 'states_cities.dart';
 
 final dir = Directory.current;
-final jsonCountryStatesFile =
-    File('${dir.path}/assets/go_bag_json/countries+states.json');
-final jsonCountryFile = File('${dir.path}/assets/go_bag_json/countries.json');
-final jsonStatesCitiesFile =
-    File('${dir.path}/assets/go_bag_json/states+cities.json');
-final jsonCitiesFile = File('${dir.path}/assets/origin_json/cities.json');
 
-final jsonCountryString = jsonCountryFile.readAsStringSync();
-final jsonCountryStatesString = jsonCountryStatesFile.readAsStringSync();
-final jsonStatesCitiesString = jsonStatesCitiesFile.readAsStringSync();
-final jsonCitiesString = jsonCitiesFile.readAsStringSync();
-
-final countries = Country.fromListMap(jsonDecode(jsonCountryString));
-final countriesStates =
-    CountryStates.fromListMap(jsonDecode(jsonCountryStatesString));
-final statesCities =
-    StatesCities.fromListMap(jsonDecode(jsonStatesCitiesString));
-final cities = City.fromListMap(jsonDecode(jsonCitiesString));
+List<Country> countries = [];
+List<City> cities = [];
+List<CountryStates> countryStates = [];
+List<StatesCities> statesCities = [];
 
 main() async {
-  //convertCountriesStates();
-  //convertCountries();
+  final jsonCountryFile = File('${dir.path}/assets/go_bag_json/countries.json');
+
+  final jsonCountryStatesFile =
+      File('${dir.path}/assets/go_bag_json/countries+states.json');
+
+  // final jsonStatesCitiesFile =
+  //     File('${dir.path}/assets/origin_json/states+cities.json');
+
+  // final jsonCitiesFile = File('${dir.path}/assets/origin_json/cities.json');
+
+  final jsonCountryString = jsonCountryFile.readAsStringSync();
+  final jsonCountryStatesString = jsonCountryStatesFile.readAsStringSync();
+  // final jsonStatesCitiesString = jsonStatesCitiesFile.readAsStringSync();
+  // final jsonCitiesString = jsonCitiesFile.readAsStringSync();
+
+  final countries = Country.fromListMap(jsonDecode(jsonCountryString));
+
+  final countriesStates =
+      CountryStates.fromListMap(jsonDecode(jsonCountryStatesString));
+
+  // final statesCities =
+  //     StatesCities.fromListMap(jsonDecode(jsonStatesCitiesString));
+
+  final statesFound = statesCities
+      .where((state) => state.cities.any((city) => city.name.contains('tiba')));
+
+  final countrysFound = countriesStates.where((contry) =>
+      contry.states.any((state) => statesFound.any((e) => state.id == e.id)));
+
+  countrysFound.forEach((element) => print(element.name));
+
+  // convertCountries(countries);
+  //convertCountriesStates(countriesStates);
   //convertStatesCities();
   //convertCities();
 
@@ -37,14 +55,14 @@ main() async {
   //readStatesCities();
   // readCities();
 
-  matchCountryCity();
-}
+  // matchCountryCity();
 
-matchCountryCity() {
-  final state = countries.firstWhere((element) =>
-      element.id ==  statesCities.firstWhere((e) => e.country_id (cities.firstWhere((e) => e.name == 'Curitiba' ).cou));
+// matchCountryCity() {
+//   final state = countries.firstWhere((element) =>
+//       element.id ==  statesCities.firstWhere((e) => e.country_id (cities.firstWhere((e) => e.name == 'Curitiba' ).cou));
 
-  print(state.name);
+//   print(state.name);
+// }
 }
 
 readCountriesStates() {
@@ -71,8 +89,8 @@ readCities() {
   print(cities[30].name);
 }
 
-convertCountries() {
-  var jsonE = jsonEncode(countries.map((e) => e.toMap()).toList());
+convertCountries(List<Country> data) {
+  var jsonE = jsonEncode(data.map((e) => e.toMap()).toList());
 
   File('${dir.path}/assets/go_bag_json/countries.json')
       .writeAsStringSync(jsonE);
@@ -85,8 +103,8 @@ convertStatesCities() {
       .writeAsStringSync(jsonE);
 }
 
-convertCountriesStates() {
-  var jsonE = jsonEncode(countriesStates.map((e) => e.toMap()).toList());
+convertCountriesStates(List<CountryStates> data) {
+  var jsonE = jsonEncode(data.map((e) => e.toMap()).toList());
 
   File('${dir.path}/assets/go_bag_json/countries+states.json')
       .writeAsStringSync(jsonE);

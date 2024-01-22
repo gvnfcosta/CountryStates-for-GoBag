@@ -4,6 +4,7 @@
         "name": "Afghanistan",
         "iso2": "AF",
         "iso3": "AFG",
+        "numeric_code": "004",
         "phone_code": "93",
         "translations": {
             "kr": "아프가니스탄",
@@ -26,6 +27,7 @@
         "name": "Aland Islands",
         "iso2": "AX",
         "iso3": "ALA",
+        "numeric_code": "248",
         "phone_code": "+358-18",
         "translations": {
             "kr": "올란드 제도",
@@ -48,6 +50,7 @@
         "name": "Albania",
         "iso2": "AL",
         "iso3": "ALB",
+        "numeric_code": "008",
         "phone_code": "355",
         "translations": {
             "kr": "알바니아",
@@ -70,6 +73,7 @@
         "name": "Algeria",
         "iso2": "DZ",
         "iso3": "DZA",
+        "numeric_code": "012",
         "phone_code": "213",
         "translations": {
             "kr": "알제리",
@@ -92,6 +96,7 @@
         "name": "American Samoa",
         "iso2": "AS",
         "iso3": "ASM",
+        "numeric_code": "016",
         "phone_code": "+1-684",
         "translations": {
             "kr": "아메리칸사모아",
@@ -114,6 +119,7 @@
         "name": "Andorra",
         "iso2": "AD",
         "iso3": "AND",
+        "numeric_code": "020",
         "phone_code": "376",
         "translations": {
             "kr": "안도라",
@@ -136,6 +142,7 @@
         "name": "Angola",
         "iso2": "AO",
         "iso3": "AGO",
+        "numeric_code": "024",
         "phone_code": "244",
         "translations": {
             "kr": "앙골라",
@@ -158,6 +165,7 @@
         "name": "Anguilla",
         "iso2": "AI",
         "iso3": "AIA",
+        "numeric_code": "660",
         "phone_code": "+1-264",
         "translations": {
             "kr": "앵귈라",
@@ -180,6 +188,7 @@
         "name": "Antarctica",
         "iso2": "AQ",
         "iso3": "ATA",
+        "numeric_code": "010",
         "phone_code": "672",
         "translations": {
             "kr": "남극",
@@ -202,6 +211,7 @@
         "name": "Antigua And Barbuda",
         "iso2": "AG",
         "iso3": "ATG",
+        "numeric_code": "028",
         "phone_code": "+1-268",
         "translations": {
             "kr": "앤티가 바부다",
@@ -224,6 +234,7 @@
         "name": "Argentina",
         "iso2": "AR",
         "iso3": "ARG",
+        "numeric_code": "032",
         "phone_code": "54",
         "translations": {
             "kr": "아르헨티나",
@@ -246,6 +257,7 @@
         "name": "Armenia",
         "iso2": "AM",
         "iso3": "ARM",
+        "numeric_code": "051",
         "phone_code": "374",
         "translations": {
             "kr": "아르메니아",
@@ -268,6 +280,7 @@
         "name": "Aruba",
         "iso2": "AW",
         "iso3": "ABW",
+        "numeric_code": "533",
         "phone_code": "297",
         "translations": {
             "kr": "아루바",
@@ -290,6 +303,7 @@
         "name": "Australia",
         "iso2": "AU",
         "iso3": "AUS",
+        "numeric_code": "036",
         "phone_code": "61",
         "translations": {
             "kr": "호주",
@@ -312,6 +326,7 @@
         "name": "Austria",
         "iso2": "AT",
         "iso3": "AUT",
+        "numeric_code": "040",
         "phone_code": "43",
         "translations": {
             "kr": "오스트리아",
@@ -334,6 +349,7 @@
         "name": "Azerbaijan",
         "iso2": "AZ",
         "iso3": "AZE",
+        "numeric_code": "031",
         "phone_code": "994",
         "translations": {
             "kr": "아제르바이잔",
@@ -356,6 +372,7 @@
         "name": "Bahrain",
         "iso2": "BH",
         "iso3": "BHR",
+        "numeric_code": "048",
         "phone_code": "973",
         "translations": {
             "kr": "바레인",
@@ -378,6 +395,7 @@
         "name": "Bangladesh",
         "iso2": "BD",
         "iso3": "BGD",
+        "numeric_code": "050",
         "phone_code": "880",
         "translations": {
             "kr": "방글라데시",
@@ -400,6 +418,7 @@
         "name": "Barbados",
         "iso2": "BB",
         "iso3": "BRB",
+        "numeric_code": "052",
         "phone_code": "+1-246",
         "translations": {
             "kr": "바베이도스",
@@ -422,6 +441,7 @@
         "name": "Belarus",
         "iso2": "BY",
         "iso3": "BLR",
+        "numeric_code": "112",
         "phone_code": "375",
         "translations": {
             "kr": "벨라루스",
@@ -444,6 +464,7 @@
         "name": "Belgium",
         "iso2": "BE",
         "iso3": "BEL",
+        "numeric_code": "056",
         "phone_code": "32",
         "translations": {
             "kr": "벨기에",
@@ -466,6 +487,7 @@
         "name": "Belize",
         "iso2": "BZ",
         "iso3": "BLZ",
+        "numeric_code": "084",
         "phone_code": "501",
         "translations": {
             "kr": "벨리즈",
@@ -488,6 +510,7 @@
         "name": "Benin",
         "iso2": "BJ",
         "iso3": "BEN",
+        "numeric_code": "204",
         "phone_code": "229",
         "translations": {
             "kr": "베냉",
@@ -510,6 +533,7 @@
         "name": "Bermuda",
         "iso2": "BM",
         "iso3": "BMU",
+        "numeric_code": "060",
         "phone_code": "+1-441",
         "translations": {
             "kr": "버뮤다",
@@ -532,6 +556,7 @@
         "name": "Bhutan",
         "iso2": "BT",
         "iso3": "BTN",
+        "numeric_code": "064",
         "phone_code": "975",
         "translations": {
             "kr": "부탄",
@@ -554,6 +579,7 @@
         "name": "Bolivia",
         "iso2": "BO",
         "iso3": "BOL",
+        "numeric_code": "068",
         "phone_code": "591",
         "translations": {
             "kr": "볼리비아",
@@ -576,6 +602,7 @@
         "name": "Bonaire, Sint Eustatius and Saba",
         "iso2": "BQ",
         "iso3": "BES",
+        "numeric_code": "535",
         "phone_code": "599",
         "translations": {
             "kr": "보네르 섬",
@@ -594,6 +621,7 @@
         "name": "Bosnia and Herzegovina",
         "iso2": "BA",
         "iso3": "BIH",
+        "numeric_code": "070",
         "phone_code": "387",
         "translations": {
             "kr": "보스니아 헤르체고비나",
@@ -616,6 +644,7 @@
         "name": "Botswana",
         "iso2": "BW",
         "iso3": "BWA",
+        "numeric_code": "072",
         "phone_code": "267",
         "translations": {
             "kr": "보츠와나",
@@ -638,6 +667,7 @@
         "name": "Bouvet Island",
         "iso2": "BV",
         "iso3": "BVT",
+        "numeric_code": "074",
         "phone_code": "0055",
         "translations": {
             "kr": "부벳 섬",
@@ -660,6 +690,7 @@
         "name": "Brazil",
         "iso2": "BR",
         "iso3": "BRA",
+        "numeric_code": "076",
         "phone_code": "55",
         "translations": {
             "kr": "브라질",
@@ -682,6 +713,7 @@
         "name": "British Indian Ocean Territory",
         "iso2": "IO",
         "iso3": "IOT",
+        "numeric_code": "086",
         "phone_code": "246",
         "translations": {
             "kr": "영국령 인도양 지역",
@@ -704,6 +736,7 @@
         "name": "Brunei",
         "iso2": "BN",
         "iso3": "BRN",
+        "numeric_code": "096",
         "phone_code": "673",
         "translations": {
             "kr": "브루나이",
@@ -726,6 +759,7 @@
         "name": "Bulgaria",
         "iso2": "BG",
         "iso3": "BGR",
+        "numeric_code": "100",
         "phone_code": "359",
         "translations": {
             "kr": "불가리아",
@@ -748,6 +782,7 @@
         "name": "Burkina Faso",
         "iso2": "BF",
         "iso3": "BFA",
+        "numeric_code": "854",
         "phone_code": "226",
         "translations": {
             "kr": "부르키나 파소",
@@ -770,6 +805,7 @@
         "name": "Burundi",
         "iso2": "BI",
         "iso3": "BDI",
+        "numeric_code": "108",
         "phone_code": "257",
         "translations": {
             "kr": "부룬디",
@@ -792,6 +828,7 @@
         "name": "Cambodia",
         "iso2": "KH",
         "iso3": "KHM",
+        "numeric_code": "116",
         "phone_code": "855",
         "translations": {
             "kr": "캄보디아",
@@ -814,6 +851,7 @@
         "name": "Cameroon",
         "iso2": "CM",
         "iso3": "CMR",
+        "numeric_code": "120",
         "phone_code": "237",
         "translations": {
             "kr": "카메룬",
@@ -836,6 +874,7 @@
         "name": "Canada",
         "iso2": "CA",
         "iso3": "CAN",
+        "numeric_code": "124",
         "phone_code": "1",
         "translations": {
             "kr": "캐나다",
@@ -858,6 +897,7 @@
         "name": "Cape Verde",
         "iso2": "CV",
         "iso3": "CPV",
+        "numeric_code": "132",
         "phone_code": "238",
         "translations": {
             "kr": "카보베르데",
@@ -880,6 +920,7 @@
         "name": "Cayman Islands",
         "iso2": "KY",
         "iso3": "CYM",
+        "numeric_code": "136",
         "phone_code": "+1-345",
         "translations": {
             "kr": "케이먼 제도",
@@ -902,6 +943,7 @@
         "name": "Central African Republic",
         "iso2": "CF",
         "iso3": "CAF",
+        "numeric_code": "140",
         "phone_code": "236",
         "translations": {
             "kr": "중앙아프리카 공화국",
@@ -924,6 +966,7 @@
         "name": "Chad",
         "iso2": "TD",
         "iso3": "TCD",
+        "numeric_code": "148",
         "phone_code": "235",
         "translations": {
             "kr": "차드",
@@ -946,6 +989,7 @@
         "name": "Chile",
         "iso2": "CL",
         "iso3": "CHL",
+        "numeric_code": "152",
         "phone_code": "56",
         "translations": {
             "kr": "칠리",
@@ -968,6 +1012,7 @@
         "name": "China",
         "iso2": "CN",
         "iso3": "CHN",
+        "numeric_code": "156",
         "phone_code": "86",
         "translations": {
             "kr": "중국",
@@ -990,6 +1035,7 @@
         "name": "Christmas Island",
         "iso2": "CX",
         "iso3": "CXR",
+        "numeric_code": "162",
         "phone_code": "61",
         "translations": {
             "kr": "크리스마스 섬",
@@ -1012,6 +1058,7 @@
         "name": "Cocos (Keeling) Islands",
         "iso2": "CC",
         "iso3": "CCK",
+        "numeric_code": "166",
         "phone_code": "61",
         "translations": {
             "kr": "코코스 제도",
@@ -1034,6 +1081,7 @@
         "name": "Colombia",
         "iso2": "CO",
         "iso3": "COL",
+        "numeric_code": "170",
         "phone_code": "57",
         "translations": {
             "kr": "콜롬비아",
@@ -1056,6 +1104,7 @@
         "name": "Comoros",
         "iso2": "KM",
         "iso3": "COM",
+        "numeric_code": "174",
         "phone_code": "269",
         "translations": {
             "kr": "코모로",
@@ -1078,6 +1127,7 @@
         "name": "Congo",
         "iso2": "CG",
         "iso3": "COG",
+        "numeric_code": "178",
         "phone_code": "242",
         "translations": {
             "kr": "콩고",
@@ -1100,6 +1150,7 @@
         "name": "Cook Islands",
         "iso2": "CK",
         "iso3": "COK",
+        "numeric_code": "184",
         "phone_code": "682",
         "translations": {
             "kr": "쿡 제도",
@@ -1122,6 +1173,7 @@
         "name": "Costa Rica",
         "iso2": "CR",
         "iso3": "CRI",
+        "numeric_code": "188",
         "phone_code": "506",
         "translations": {
             "kr": "코스타리카",
@@ -1144,6 +1196,7 @@
         "name": "Cote D'Ivoire (Ivory Coast)",
         "iso2": "CI",
         "iso3": "CIV",
+        "numeric_code": "384",
         "phone_code": "225",
         "translations": {
             "kr": "코트디부아르",
@@ -1166,6 +1219,7 @@
         "name": "Croatia",
         "iso2": "HR",
         "iso3": "HRV",
+        "numeric_code": "191",
         "phone_code": "385",
         "translations": {
             "kr": "크로아티아",
@@ -1188,6 +1242,7 @@
         "name": "Cuba",
         "iso2": "CU",
         "iso3": "CUB",
+        "numeric_code": "192",
         "phone_code": "53",
         "translations": {
             "kr": "쿠바",
@@ -1210,6 +1265,7 @@
         "name": "Curaçao",
         "iso2": "CW",
         "iso3": "CUW",
+        "numeric_code": "531",
         "phone_code": "599",
         "translations": {
             "kr": "퀴라소",
@@ -1229,6 +1285,7 @@
         "name": "Cyprus",
         "iso2": "CY",
         "iso3": "CYP",
+        "numeric_code": "196",
         "phone_code": "357",
         "translations": {
             "kr": "키프로스",
@@ -1251,6 +1308,7 @@
         "name": "Czech Republic",
         "iso2": "CZ",
         "iso3": "CZE",
+        "numeric_code": "203",
         "phone_code": "420",
         "translations": {
             "kr": "체코",
@@ -1273,6 +1331,7 @@
         "name": "Democratic Republic of the Congo",
         "iso2": "CD",
         "iso3": "COD",
+        "numeric_code": "180",
         "phone_code": "243",
         "translations": {
             "kr": "콩고 민주 공화국",
@@ -1295,6 +1354,7 @@
         "name": "Denmark",
         "iso2": "DK",
         "iso3": "DNK",
+        "numeric_code": "208",
         "phone_code": "45",
         "translations": {
             "kr": "덴마크",
@@ -1317,6 +1377,7 @@
         "name": "Djibouti",
         "iso2": "DJ",
         "iso3": "DJI",
+        "numeric_code": "262",
         "phone_code": "253",
         "translations": {
             "kr": "지부티",
@@ -1339,6 +1400,7 @@
         "name": "Dominica",
         "iso2": "DM",
         "iso3": "DMA",
+        "numeric_code": "212",
         "phone_code": "+1-767",
         "translations": {
             "kr": "도미니카 연방",
@@ -1361,6 +1423,7 @@
         "name": "Dominican Republic",
         "iso2": "DO",
         "iso3": "DOM",
+        "numeric_code": "214",
         "phone_code": "+1-809 and 1-829",
         "translations": {
             "kr": "도미니카 공화국",
@@ -1383,6 +1446,7 @@
         "name": "East Timor",
         "iso2": "TL",
         "iso3": "TLS",
+        "numeric_code": "626",
         "phone_code": "670",
         "translations": {
             "kr": "동티모르",
@@ -1405,6 +1469,7 @@
         "name": "Ecuador",
         "iso2": "EC",
         "iso3": "ECU",
+        "numeric_code": "218",
         "phone_code": "593",
         "translations": {
             "kr": "에콰도르",
@@ -1427,6 +1492,7 @@
         "name": "Egypt",
         "iso2": "EG",
         "iso3": "EGY",
+        "numeric_code": "818",
         "phone_code": "20",
         "translations": {
             "kr": "이집트",
@@ -1449,6 +1515,7 @@
         "name": "El Salvador",
         "iso2": "SV",
         "iso3": "SLV",
+        "numeric_code": "222",
         "phone_code": "503",
         "translations": {
             "kr": "엘살바도르",
@@ -1471,6 +1538,7 @@
         "name": "Equatorial Guinea",
         "iso2": "GQ",
         "iso3": "GNQ",
+        "numeric_code": "226",
         "phone_code": "240",
         "translations": {
             "kr": "적도 기니",
@@ -1493,6 +1561,7 @@
         "name": "Eritrea",
         "iso2": "ER",
         "iso3": "ERI",
+        "numeric_code": "232",
         "phone_code": "291",
         "translations": {
             "kr": "에리트레아",
@@ -1515,6 +1584,7 @@
         "name": "Estonia",
         "iso2": "EE",
         "iso3": "EST",
+        "numeric_code": "233",
         "phone_code": "372",
         "translations": {
             "kr": "에스토니아",
@@ -1537,6 +1607,7 @@
         "name": "Ethiopia",
         "iso2": "ET",
         "iso3": "ETH",
+        "numeric_code": "231",
         "phone_code": "251",
         "translations": {
             "kr": "에티오피아",
@@ -1559,6 +1630,7 @@
         "name": "Falkland Islands",
         "iso2": "FK",
         "iso3": "FLK",
+        "numeric_code": "238",
         "phone_code": "500",
         "translations": {
             "kr": "포클랜드 제도",
@@ -1581,6 +1653,7 @@
         "name": "Faroe Islands",
         "iso2": "FO",
         "iso3": "FRO",
+        "numeric_code": "234",
         "phone_code": "298",
         "translations": {
             "kr": "페로 제도",
@@ -1603,6 +1676,7 @@
         "name": "Fiji Islands",
         "iso2": "FJ",
         "iso3": "FJI",
+        "numeric_code": "242",
         "phone_code": "679",
         "translations": {
             "kr": "피지",
@@ -1625,6 +1699,7 @@
         "name": "Finland",
         "iso2": "FI",
         "iso3": "FIN",
+        "numeric_code": "246",
         "phone_code": "358",
         "translations": {
             "kr": "핀란드",
@@ -1647,6 +1722,7 @@
         "name": "France",
         "iso2": "FR",
         "iso3": "FRA",
+        "numeric_code": "250",
         "phone_code": "33",
         "translations": {
             "kr": "프랑스",
@@ -1669,6 +1745,7 @@
         "name": "French Guiana",
         "iso2": "GF",
         "iso3": "GUF",
+        "numeric_code": "254",
         "phone_code": "594",
         "translations": {
             "kr": "프랑스령 기아나",
@@ -1691,6 +1768,7 @@
         "name": "French Polynesia",
         "iso2": "PF",
         "iso3": "PYF",
+        "numeric_code": "258",
         "phone_code": "689",
         "translations": {
             "kr": "프랑스령 폴리네시아",
@@ -1713,6 +1791,7 @@
         "name": "French Southern Territories",
         "iso2": "TF",
         "iso3": "ATF",
+        "numeric_code": "260",
         "phone_code": "262",
         "translations": {
             "kr": "프랑스령 남방 및 남극",
@@ -1735,6 +1814,7 @@
         "name": "Gabon",
         "iso2": "GA",
         "iso3": "GAB",
+        "numeric_code": "266",
         "phone_code": "241",
         "translations": {
             "kr": "가봉",
@@ -1757,6 +1837,7 @@
         "name": "Gambia The",
         "iso2": "GM",
         "iso3": "GMB",
+        "numeric_code": "270",
         "phone_code": "220",
         "translations": {
             "kr": "감비아",
@@ -1779,6 +1860,7 @@
         "name": "Georgia",
         "iso2": "GE",
         "iso3": "GEO",
+        "numeric_code": "268",
         "phone_code": "995",
         "translations": {
             "kr": "조지아",
@@ -1801,6 +1883,7 @@
         "name": "Germany",
         "iso2": "DE",
         "iso3": "DEU",
+        "numeric_code": "276",
         "phone_code": "49",
         "translations": {
             "kr": "독일",
@@ -1823,6 +1906,7 @@
         "name": "Ghana",
         "iso2": "GH",
         "iso3": "GHA",
+        "numeric_code": "288",
         "phone_code": "233",
         "translations": {
             "kr": "가나",
@@ -1845,6 +1929,7 @@
         "name": "Gibraltar",
         "iso2": "GI",
         "iso3": "GIB",
+        "numeric_code": "292",
         "phone_code": "350",
         "translations": {
             "kr": "지브롤터",
@@ -1867,6 +1952,7 @@
         "name": "Greece",
         "iso2": "GR",
         "iso3": "GRC",
+        "numeric_code": "300",
         "phone_code": "30",
         "translations": {
             "kr": "그리스",
@@ -1889,6 +1975,7 @@
         "name": "Greenland",
         "iso2": "GL",
         "iso3": "GRL",
+        "numeric_code": "304",
         "phone_code": "299",
         "translations": {
             "kr": "그린란드",
@@ -1911,6 +1998,7 @@
         "name": "Grenada",
         "iso2": "GD",
         "iso3": "GRD",
+        "numeric_code": "308",
         "phone_code": "+1-473",
         "translations": {
             "kr": "그레나다",
@@ -1933,6 +2021,7 @@
         "name": "Guadeloupe",
         "iso2": "GP",
         "iso3": "GLP",
+        "numeric_code": "312",
         "phone_code": "590",
         "translations": {
             "kr": "과들루프",
@@ -1955,6 +2044,7 @@
         "name": "Guam",
         "iso2": "GU",
         "iso3": "GUM",
+        "numeric_code": "316",
         "phone_code": "+1-671",
         "translations": {
             "kr": "괌",
@@ -1977,6 +2067,7 @@
         "name": "Guatemala",
         "iso2": "GT",
         "iso3": "GTM",
+        "numeric_code": "320",
         "phone_code": "502",
         "translations": {
             "kr": "과테말라",
@@ -1999,6 +2090,7 @@
         "name": "Guernsey and Alderney",
         "iso2": "GG",
         "iso3": "GGY",
+        "numeric_code": "831",
         "phone_code": "+44-1481",
         "translations": {
             "kr": "건지, 올더니",
@@ -2021,6 +2113,7 @@
         "name": "Guinea",
         "iso2": "GN",
         "iso3": "GIN",
+        "numeric_code": "324",
         "phone_code": "224",
         "translations": {
             "kr": "기니",
@@ -2043,6 +2136,7 @@
         "name": "Guinea-Bissau",
         "iso2": "GW",
         "iso3": "GNB",
+        "numeric_code": "624",
         "phone_code": "245",
         "translations": {
             "kr": "기니비사우",
@@ -2065,6 +2159,7 @@
         "name": "Guyana",
         "iso2": "GY",
         "iso3": "GUY",
+        "numeric_code": "328",
         "phone_code": "592",
         "translations": {
             "kr": "가이아나",
@@ -2087,6 +2182,7 @@
         "name": "Haiti",
         "iso2": "HT",
         "iso3": "HTI",
+        "numeric_code": "332",
         "phone_code": "509",
         "translations": {
             "kr": "아이티",
@@ -2109,6 +2205,7 @@
         "name": "Heard Island and McDonald Islands",
         "iso2": "HM",
         "iso3": "HMD",
+        "numeric_code": "334",
         "phone_code": "672",
         "translations": {
             "kr": "허드 맥도날드 제도",
@@ -2131,6 +2228,7 @@
         "name": "Honduras",
         "iso2": "HN",
         "iso3": "HND",
+        "numeric_code": "340",
         "phone_code": "504",
         "translations": {
             "kr": "온두라스",
@@ -2153,6 +2251,7 @@
         "name": "Hong Kong S.A.R.",
         "iso2": "HK",
         "iso3": "HKG",
+        "numeric_code": "344",
         "phone_code": "852",
         "translations": {
             "kr": "홍콩",
@@ -2175,6 +2274,7 @@
         "name": "Hungary",
         "iso2": "HU",
         "iso3": "HUN",
+        "numeric_code": "348",
         "phone_code": "36",
         "translations": {
             "kr": "헝가리",
@@ -2197,6 +2297,7 @@
         "name": "Iceland",
         "iso2": "IS",
         "iso3": "ISL",
+        "numeric_code": "352",
         "phone_code": "354",
         "translations": {
             "kr": "아이슬란드",
@@ -2219,6 +2320,7 @@
         "name": "India",
         "iso2": "IN",
         "iso3": "IND",
+        "numeric_code": "356",
         "phone_code": "91",
         "translations": {
             "kr": "인도",
@@ -2241,6 +2343,7 @@
         "name": "Indonesia",
         "iso2": "ID",
         "iso3": "IDN",
+        "numeric_code": "360",
         "phone_code": "62",
         "translations": {
             "kr": "인도네시아",
@@ -2263,6 +2366,7 @@
         "name": "Iran",
         "iso2": "IR",
         "iso3": "IRN",
+        "numeric_code": "364",
         "phone_code": "98",
         "translations": {
             "kr": "이란",
@@ -2284,6 +2388,7 @@
         "name": "Iraq",
         "iso2": "IQ",
         "iso3": "IRQ",
+        "numeric_code": "368",
         "phone_code": "964",
         "translations": {
             "kr": "이라크",
@@ -2306,6 +2411,7 @@
         "name": "Ireland",
         "iso2": "IE",
         "iso3": "IRL",
+        "numeric_code": "372",
         "phone_code": "353",
         "translations": {
             "kr": "아일랜드",
@@ -2328,6 +2434,7 @@
         "name": "Israel",
         "iso2": "IL",
         "iso3": "ISR",
+        "numeric_code": "376",
         "phone_code": "972",
         "translations": {
             "kr": "이스라엘",
@@ -2350,6 +2457,7 @@
         "name": "Italy",
         "iso2": "IT",
         "iso3": "ITA",
+        "numeric_code": "380",
         "phone_code": "39",
         "translations": {
             "kr": "이탈리아",
@@ -2372,6 +2480,7 @@
         "name": "Jamaica",
         "iso2": "JM",
         "iso3": "JAM",
+        "numeric_code": "388",
         "phone_code": "+1-876",
         "translations": {
             "kr": "자메이카",
@@ -2394,6 +2503,7 @@
         "name": "Japan",
         "iso2": "JP",
         "iso3": "JPN",
+        "numeric_code": "392",
         "phone_code": "81",
         "translations": {
             "kr": "일본",
@@ -2416,6 +2526,7 @@
         "name": "Jersey",
         "iso2": "JE",
         "iso3": "JEY",
+        "numeric_code": "832",
         "phone_code": "+44-1534",
         "translations": {
             "kr": "저지 섬",
@@ -2438,6 +2549,7 @@
         "name": "Jordan",
         "iso2": "JO",
         "iso3": "JOR",
+        "numeric_code": "400",
         "phone_code": "962",
         "translations": {
             "kr": "요르단",
@@ -2460,6 +2572,7 @@
         "name": "Kazakhstan",
         "iso2": "KZ",
         "iso3": "KAZ",
+        "numeric_code": "398",
         "phone_code": "7",
         "translations": {
             "kr": "카자흐스탄",
@@ -2482,6 +2595,7 @@
         "name": "Kenya",
         "iso2": "KE",
         "iso3": "KEN",
+        "numeric_code": "404",
         "phone_code": "254",
         "translations": {
             "kr": "케냐",
@@ -2504,6 +2618,7 @@
         "name": "Kiribati",
         "iso2": "KI",
         "iso3": "KIR",
+        "numeric_code": "296",
         "phone_code": "686",
         "translations": {
             "kr": "키리바시",
@@ -2526,6 +2641,7 @@
         "name": "Kosovo",
         "iso2": "XK",
         "iso3": "XKX",
+        "numeric_code": "926",
         "phone_code": "383",
         "translations": {
             "kr": "코소보",
@@ -2538,6 +2654,7 @@
         "name": "Kuwait",
         "iso2": "KW",
         "iso3": "KWT",
+        "numeric_code": "414",
         "phone_code": "965",
         "translations": {
             "kr": "쿠웨이트",
@@ -2560,6 +2677,7 @@
         "name": "Kyrgyzstan",
         "iso2": "KG",
         "iso3": "KGZ",
+        "numeric_code": "417",
         "phone_code": "996",
         "translations": {
             "kr": "키르기스스탄",
@@ -2582,6 +2700,7 @@
         "name": "Laos",
         "iso2": "LA",
         "iso3": "LAO",
+        "numeric_code": "418",
         "phone_code": "856",
         "translations": {
             "kr": "라오스",
@@ -2604,6 +2723,7 @@
         "name": "Latvia",
         "iso2": "LV",
         "iso3": "LVA",
+        "numeric_code": "428",
         "phone_code": "371",
         "translations": {
             "kr": "라트비아",
@@ -2626,6 +2746,7 @@
         "name": "Lebanon",
         "iso2": "LB",
         "iso3": "LBN",
+        "numeric_code": "422",
         "phone_code": "961",
         "translations": {
             "kr": "레바논",
@@ -2648,6 +2769,7 @@
         "name": "Lesotho",
         "iso2": "LS",
         "iso3": "LSO",
+        "numeric_code": "426",
         "phone_code": "266",
         "translations": {
             "kr": "레소토",
@@ -2670,6 +2792,7 @@
         "name": "Liberia",
         "iso2": "LR",
         "iso3": "LBR",
+        "numeric_code": "430",
         "phone_code": "231",
         "translations": {
             "kr": "라이베리아",
@@ -2692,6 +2815,7 @@
         "name": "Libya",
         "iso2": "LY",
         "iso3": "LBY",
+        "numeric_code": "434",
         "phone_code": "218",
         "translations": {
             "kr": "리비아",
@@ -2714,6 +2838,7 @@
         "name": "Liechtenstein",
         "iso2": "LI",
         "iso3": "LIE",
+        "numeric_code": "438",
         "phone_code": "423",
         "translations": {
             "kr": "리히텐슈타인",
@@ -2736,6 +2861,7 @@
         "name": "Lithuania",
         "iso2": "LT",
         "iso3": "LTU",
+        "numeric_code": "440",
         "phone_code": "370",
         "translations": {
             "kr": "리투아니아",
@@ -2758,6 +2884,7 @@
         "name": "Luxembourg",
         "iso2": "LU",
         "iso3": "LUX",
+        "numeric_code": "442",
         "phone_code": "352",
         "translations": {
             "kr": "룩셈부르크",
@@ -2780,6 +2907,7 @@
         "name": "Macau S.A.R.",
         "iso2": "MO",
         "iso3": "MAC",
+        "numeric_code": "446",
         "phone_code": "853",
         "translations": {
             "kr": "마카오",
@@ -2802,6 +2930,7 @@
         "name": "Madagascar",
         "iso2": "MG",
         "iso3": "MDG",
+        "numeric_code": "450",
         "phone_code": "261",
         "translations": {
             "kr": "마다가스카르",
@@ -2824,6 +2953,7 @@
         "name": "Malawi",
         "iso2": "MW",
         "iso3": "MWI",
+        "numeric_code": "454",
         "phone_code": "265",
         "translations": {
             "kr": "말라위",
@@ -2846,6 +2976,7 @@
         "name": "Malaysia",
         "iso2": "MY",
         "iso3": "MYS",
+        "numeric_code": "458",
         "phone_code": "60",
         "translations": {
             "kr": "말레이시아",
@@ -2868,6 +2999,7 @@
         "name": "Maldives",
         "iso2": "MV",
         "iso3": "MDV",
+        "numeric_code": "462",
         "phone_code": "960",
         "translations": {
             "kr": "몰디브",
@@ -2890,6 +3022,7 @@
         "name": "Mali",
         "iso2": "ML",
         "iso3": "MLI",
+        "numeric_code": "466",
         "phone_code": "223",
         "translations": {
             "kr": "말리",
@@ -2912,6 +3045,7 @@
         "name": "Malta",
         "iso2": "MT",
         "iso3": "MLT",
+        "numeric_code": "470",
         "phone_code": "356",
         "translations": {
             "kr": "몰타",
@@ -2934,6 +3068,7 @@
         "name": "Man (Isle of)",
         "iso2": "IM",
         "iso3": "IMN",
+        "numeric_code": "833",
         "phone_code": "+44-1624",
         "translations": {
             "kr": "맨 섬",
@@ -2956,6 +3091,7 @@
         "name": "Marshall Islands",
         "iso2": "MH",
         "iso3": "MHL",
+        "numeric_code": "584",
         "phone_code": "692",
         "translations": {
             "kr": "마셜 제도",
@@ -2978,6 +3114,7 @@
         "name": "Martinique",
         "iso2": "MQ",
         "iso3": "MTQ",
+        "numeric_code": "474",
         "phone_code": "596",
         "translations": {
             "kr": "마르티니크",
@@ -3000,6 +3137,7 @@
         "name": "Mauritania",
         "iso2": "MR",
         "iso3": "MRT",
+        "numeric_code": "478",
         "phone_code": "222",
         "translations": {
             "kr": "모리타니",
@@ -3022,6 +3160,7 @@
         "name": "Mauritius",
         "iso2": "MU",
         "iso3": "MUS",
+        "numeric_code": "480",
         "phone_code": "230",
         "translations": {
             "kr": "모리셔스",
@@ -3044,6 +3183,7 @@
         "name": "Mayotte",
         "iso2": "YT",
         "iso3": "MYT",
+        "numeric_code": "175",
         "phone_code": "262",
         "translations": {
             "kr": "마요트",
@@ -3066,6 +3206,7 @@
         "name": "Mexico",
         "iso2": "MX",
         "iso3": "MEX",
+        "numeric_code": "484",
         "phone_code": "52",
         "translations": {
             "kr": "멕시코",
@@ -3088,6 +3229,7 @@
         "name": "Micronesia",
         "iso2": "FM",
         "iso3": "FSM",
+        "numeric_code": "583",
         "phone_code": "691",
         "translations": {
             "kr": "미크로네시아 연방",
@@ -3110,6 +3252,7 @@
         "name": "Moldova",
         "iso2": "MD",
         "iso3": "MDA",
+        "numeric_code": "498",
         "phone_code": "373",
         "translations": {
             "kr": "몰도바",
@@ -3132,6 +3275,7 @@
         "name": "Monaco",
         "iso2": "MC",
         "iso3": "MCO",
+        "numeric_code": "492",
         "phone_code": "377",
         "translations": {
             "kr": "모나코",
@@ -3154,6 +3298,7 @@
         "name": "Mongolia",
         "iso2": "MN",
         "iso3": "MNG",
+        "numeric_code": "496",
         "phone_code": "976",
         "translations": {
             "kr": "몽골",
@@ -3176,6 +3321,7 @@
         "name": "Montenegro",
         "iso2": "ME",
         "iso3": "MNE",
+        "numeric_code": "499",
         "phone_code": "382",
         "translations": {
             "kr": "몬테네그로",
@@ -3198,6 +3344,7 @@
         "name": "Montserrat",
         "iso2": "MS",
         "iso3": "MSR",
+        "numeric_code": "500",
         "phone_code": "+1-664",
         "translations": {
             "kr": "몬트세랫",
@@ -3220,6 +3367,7 @@
         "name": "Morocco",
         "iso2": "MA",
         "iso3": "MAR",
+        "numeric_code": "504",
         "phone_code": "212",
         "translations": {
             "kr": "모로코",
@@ -3242,6 +3390,7 @@
         "name": "Mozambique",
         "iso2": "MZ",
         "iso3": "MOZ",
+        "numeric_code": "508",
         "phone_code": "258",
         "translations": {
             "kr": "모잠비크",
@@ -3264,6 +3413,7 @@
         "name": "Myanmar",
         "iso2": "MM",
         "iso3": "MMR",
+        "numeric_code": "104",
         "phone_code": "95",
         "translations": {
             "kr": "미얀마",
@@ -3286,6 +3436,7 @@
         "name": "Namibia",
         "iso2": "NA",
         "iso3": "NAM",
+        "numeric_code": "516",
         "phone_code": "264",
         "translations": {
             "kr": "나미비아",
@@ -3308,6 +3459,7 @@
         "name": "Nauru",
         "iso2": "NR",
         "iso3": "NRU",
+        "numeric_code": "520",
         "phone_code": "674",
         "translations": {
             "kr": "나우루",
@@ -3330,6 +3482,7 @@
         "name": "Nepal",
         "iso2": "NP",
         "iso3": "NPL",
+        "numeric_code": "524",
         "phone_code": "977",
         "translations": {
             "kr": "네팔",
@@ -3352,6 +3505,7 @@
         "name": "Netherlands",
         "iso2": "NL",
         "iso3": "NLD",
+        "numeric_code": "528",
         "phone_code": "31",
         "translations": {
             "kr": "네덜란드 ",
@@ -3374,6 +3528,7 @@
         "name": "New Caledonia",
         "iso2": "NC",
         "iso3": "NCL",
+        "numeric_code": "540",
         "phone_code": "687",
         "translations": {
             "kr": "누벨칼레도니",
@@ -3396,6 +3551,7 @@
         "name": "New Zealand",
         "iso2": "NZ",
         "iso3": "NZL",
+        "numeric_code": "554",
         "phone_code": "64",
         "translations": {
             "kr": "뉴질랜드",
@@ -3418,6 +3574,7 @@
         "name": "Nicaragua",
         "iso2": "NI",
         "iso3": "NIC",
+        "numeric_code": "558",
         "phone_code": "505",
         "translations": {
             "kr": "니카라과",
@@ -3440,6 +3597,7 @@
         "name": "Niger",
         "iso2": "NE",
         "iso3": "NER",
+        "numeric_code": "562",
         "phone_code": "227",
         "translations": {
             "kr": "니제르",
@@ -3462,6 +3620,7 @@
         "name": "Nigeria",
         "iso2": "NG",
         "iso3": "NGA",
+        "numeric_code": "566",
         "phone_code": "234",
         "translations": {
             "kr": "나이지리아",
@@ -3484,6 +3643,7 @@
         "name": "Niue",
         "iso2": "NU",
         "iso3": "NIU",
+        "numeric_code": "570",
         "phone_code": "683",
         "translations": {
             "kr": "니우에",
@@ -3506,6 +3666,7 @@
         "name": "Norfolk Island",
         "iso2": "NF",
         "iso3": "NFK",
+        "numeric_code": "574",
         "phone_code": "672",
         "translations": {
             "kr": "노퍽 섬",
@@ -3528,6 +3689,7 @@
         "name": "North Korea",
         "iso2": "KP",
         "iso3": "PRK",
+        "numeric_code": "408",
         "phone_code": "850",
         "translations": {
             "kr": "조선민주주의인민공화국",
@@ -3550,6 +3712,7 @@
         "name": "North Macedonia",
         "iso2": "MK",
         "iso3": "MKD",
+        "numeric_code": "807",
         "phone_code": "389",
         "translations": {
             "kr": "북마케도니아",
@@ -3572,6 +3735,7 @@
         "name": "Northern Mariana Islands",
         "iso2": "MP",
         "iso3": "MNP",
+        "numeric_code": "580",
         "phone_code": "+1-670",
         "translations": {
             "kr": "북마리아나 제도",
@@ -3594,6 +3758,7 @@
         "name": "Norway",
         "iso2": "NO",
         "iso3": "NOR",
+        "numeric_code": "578",
         "phone_code": "47",
         "translations": {
             "kr": "노르웨이",
@@ -3616,6 +3781,7 @@
         "name": "Oman",
         "iso2": "OM",
         "iso3": "OMN",
+        "numeric_code": "512",
         "phone_code": "968",
         "translations": {
             "kr": "오만",
@@ -3638,6 +3804,7 @@
         "name": "Pakistan",
         "iso2": "PK",
         "iso3": "PAK",
+        "numeric_code": "586",
         "phone_code": "92",
         "translations": {
             "kr": "파키스탄",
@@ -3660,6 +3827,7 @@
         "name": "Palau",
         "iso2": "PW",
         "iso3": "PLW",
+        "numeric_code": "585",
         "phone_code": "680",
         "translations": {
             "kr": "팔라우",
@@ -3682,6 +3850,7 @@
         "name": "Palestinian Territory Occupied",
         "iso2": "PS",
         "iso3": "PSE",
+        "numeric_code": "275",
         "phone_code": "970",
         "translations": {
             "kr": "팔레스타인 영토",
@@ -3704,6 +3873,7 @@
         "name": "Panama",
         "iso2": "PA",
         "iso3": "PAN",
+        "numeric_code": "591",
         "phone_code": "507",
         "translations": {
             "kr": "파나마",
@@ -3726,6 +3896,7 @@
         "name": "Papua new Guinea",
         "iso2": "PG",
         "iso3": "PNG",
+        "numeric_code": "598",
         "phone_code": "675",
         "translations": {
             "kr": "파푸아뉴기니",
@@ -3748,6 +3919,7 @@
         "name": "Paraguay",
         "iso2": "PY",
         "iso3": "PRY",
+        "numeric_code": "600",
         "phone_code": "595",
         "translations": {
             "kr": "파라과이",
@@ -3770,6 +3942,7 @@
         "name": "Peru",
         "iso2": "PE",
         "iso3": "PER",
+        "numeric_code": "604",
         "phone_code": "51",
         "translations": {
             "kr": "페루",
@@ -3792,6 +3965,7 @@
         "name": "Philippines",
         "iso2": "PH",
         "iso3": "PHL",
+        "numeric_code": "608",
         "phone_code": "63",
         "translations": {
             "kr": "필리핀",
@@ -3814,6 +3988,7 @@
         "name": "Pitcairn Island",
         "iso2": "PN",
         "iso3": "PCN",
+        "numeric_code": "612",
         "phone_code": "870",
         "translations": {
             "kr": "핏케언 제도",
@@ -3836,6 +4011,7 @@
         "name": "Poland",
         "iso2": "PL",
         "iso3": "POL",
+        "numeric_code": "616",
         "phone_code": "48",
         "translations": {
             "kr": "폴란드",
@@ -3858,6 +4034,7 @@
         "name": "Portugal",
         "iso2": "PT",
         "iso3": "PRT",
+        "numeric_code": "620",
         "phone_code": "351",
         "translations": {
             "kr": "포르투갈",
@@ -3880,6 +4057,7 @@
         "name": "Puerto Rico",
         "iso2": "PR",
         "iso3": "PRI",
+        "numeric_code": "630",
         "phone_code": "+1-787 and 1-939",
         "translations": {
             "kr": "푸에르토리코",
@@ -3902,6 +4080,7 @@
         "name": "Qatar",
         "iso2": "QA",
         "iso3": "QAT",
+        "numeric_code": "634",
         "phone_code": "974",
         "translations": {
             "kr": "카타르",
@@ -3924,6 +4103,7 @@
         "name": "Reunion",
         "iso2": "RE",
         "iso3": "REU",
+        "numeric_code": "638",
         "phone_code": "262",
         "translations": {
             "kr": "레위니옹",
@@ -3946,6 +4126,7 @@
         "name": "Romania",
         "iso2": "RO",
         "iso3": "ROU",
+        "numeric_code": "642",
         "phone_code": "40",
         "translations": {
             "kr": "루마니아",
@@ -3968,6 +4149,7 @@
         "name": "Russia",
         "iso2": "RU",
         "iso3": "RUS",
+        "numeric_code": "643",
         "phone_code": "7",
         "translations": {
             "kr": "러시아",
@@ -3990,6 +4172,7 @@
         "name": "Rwanda",
         "iso2": "RW",
         "iso3": "RWA",
+        "numeric_code": "646",
         "phone_code": "250",
         "translations": {
             "kr": "르완다",
@@ -4012,6 +4195,7 @@
         "name": "Saint Helena",
         "iso2": "SH",
         "iso3": "SHN",
+        "numeric_code": "654",
         "phone_code": "290",
         "translations": {
             "kr": "세인트헬레나",
@@ -4034,6 +4218,7 @@
         "name": "Saint Kitts And Nevis",
         "iso2": "KN",
         "iso3": "KNA",
+        "numeric_code": "659",
         "phone_code": "+1-869",
         "translations": {
             "kr": "세인트키츠 네비스",
@@ -4056,6 +4241,7 @@
         "name": "Saint Lucia",
         "iso2": "LC",
         "iso3": "LCA",
+        "numeric_code": "662",
         "phone_code": "+1-758",
         "translations": {
             "kr": "세인트루시아",
@@ -4078,6 +4264,7 @@
         "name": "Saint Pierre and Miquelon",
         "iso2": "PM",
         "iso3": "SPM",
+        "numeric_code": "666",
         "phone_code": "508",
         "translations": {
             "kr": "생피에르 미클롱",
@@ -4100,6 +4287,7 @@
         "name": "Saint Vincent And The Grenadines",
         "iso2": "VC",
         "iso3": "VCT",
+        "numeric_code": "670",
         "phone_code": "+1-784",
         "translations": {
             "kr": "세인트빈센트 그레나딘",
@@ -4122,6 +4310,7 @@
         "name": "Saint-Barthelemy",
         "iso2": "BL",
         "iso3": "BLM",
+        "numeric_code": "652",
         "phone_code": "590",
         "translations": {
             "kr": "생바르텔레미",
@@ -4144,6 +4333,7 @@
         "name": "Saint-Martin (French part)",
         "iso2": "MF",
         "iso3": "MAF",
+        "numeric_code": "663",
         "phone_code": "590",
         "translations": {
             "kr": "세인트마틴 섬",
@@ -4166,6 +4356,7 @@
         "name": "Samoa",
         "iso2": "WS",
         "iso3": "WSM",
+        "numeric_code": "882",
         "phone_code": "685",
         "translations": {
             "kr": "사모아",
@@ -4188,6 +4379,7 @@
         "name": "San Marino",
         "iso2": "SM",
         "iso3": "SMR",
+        "numeric_code": "674",
         "phone_code": "378",
         "translations": {
             "kr": "산마리노",
@@ -4210,6 +4402,7 @@
         "name": "Sao Tome and Principe",
         "iso2": "ST",
         "iso3": "STP",
+        "numeric_code": "678",
         "phone_code": "239",
         "translations": {
             "kr": "상투메 프린시페",
@@ -4232,6 +4425,7 @@
         "name": "Saudi Arabia",
         "iso2": "SA",
         "iso3": "SAU",
+        "numeric_code": "682",
         "phone_code": "966",
         "translations": {
             "kr": "사우디아라비아",
@@ -4254,6 +4448,7 @@
         "name": "Senegal",
         "iso2": "SN",
         "iso3": "SEN",
+        "numeric_code": "686",
         "phone_code": "221",
         "translations": {
             "kr": "세네갈",
@@ -4276,6 +4471,7 @@
         "name": "Serbia",
         "iso2": "RS",
         "iso3": "SRB",
+        "numeric_code": "688",
         "phone_code": "381",
         "translations": {
             "kr": "세르비아",
@@ -4298,6 +4494,7 @@
         "name": "Seychelles",
         "iso2": "SC",
         "iso3": "SYC",
+        "numeric_code": "690",
         "phone_code": "248",
         "translations": {
             "kr": "세이셸",
@@ -4320,6 +4517,7 @@
         "name": "Sierra Leone",
         "iso2": "SL",
         "iso3": "SLE",
+        "numeric_code": "694",
         "phone_code": "232",
         "translations": {
             "kr": "시에라리온",
@@ -4342,6 +4540,7 @@
         "name": "Singapore",
         "iso2": "SG",
         "iso3": "SGP",
+        "numeric_code": "702",
         "phone_code": "65",
         "translations": {
             "kr": "싱가포르",
@@ -4364,6 +4563,7 @@
         "name": "Sint Maarten (Dutch part)",
         "iso2": "SX",
         "iso3": "SXM",
+        "numeric_code": "534",
         "phone_code": "1721",
         "translations": {
             "kr": "신트마르턴",
@@ -4383,6 +4583,7 @@
         "name": "Slovakia",
         "iso2": "SK",
         "iso3": "SVK",
+        "numeric_code": "703",
         "phone_code": "421",
         "translations": {
             "kr": "슬로바키아",
@@ -4405,6 +4606,7 @@
         "name": "Slovenia",
         "iso2": "SI",
         "iso3": "SVN",
+        "numeric_code": "705",
         "phone_code": "386",
         "translations": {
             "kr": "슬로베니아",
@@ -4427,6 +4629,7 @@
         "name": "Solomon Islands",
         "iso2": "SB",
         "iso3": "SLB",
+        "numeric_code": "090",
         "phone_code": "677",
         "translations": {
             "kr": "솔로몬 제도",
@@ -4449,6 +4652,7 @@
         "name": "Somalia",
         "iso2": "SO",
         "iso3": "SOM",
+        "numeric_code": "706",
         "phone_code": "252",
         "translations": {
             "kr": "소말리아",
@@ -4471,6 +4675,7 @@
         "name": "South Africa",
         "iso2": "ZA",
         "iso3": "ZAF",
+        "numeric_code": "710",
         "phone_code": "27",
         "translations": {
             "kr": "남아프리카 공화국",
@@ -4493,6 +4698,7 @@
         "name": "South Georgia",
         "iso2": "GS",
         "iso3": "SGS",
+        "numeric_code": "239",
         "phone_code": "500",
         "translations": {
             "kr": "사우스조지아",
@@ -4515,6 +4721,7 @@
         "name": "South Korea",
         "iso2": "KR",
         "iso3": "KOR",
+        "numeric_code": "410",
         "phone_code": "82",
         "translations": {
             "kr": "대한민국",
@@ -4537,6 +4744,7 @@
         "name": "South Sudan",
         "iso2": "SS",
         "iso3": "SSD",
+        "numeric_code": "728",
         "phone_code": "211",
         "translations": {
             "kr": "남수단",
@@ -4559,6 +4767,7 @@
         "name": "Spain",
         "iso2": "ES",
         "iso3": "ESP",
+        "numeric_code": "724",
         "phone_code": "34",
         "translations": {
             "kr": "스페인",
@@ -4581,6 +4790,7 @@
         "name": "Sri Lanka",
         "iso2": "LK",
         "iso3": "LKA",
+        "numeric_code": "144",
         "phone_code": "94",
         "translations": {
             "kr": "스리랑카",
@@ -4603,6 +4813,7 @@
         "name": "Sudan",
         "iso2": "SD",
         "iso3": "SDN",
+        "numeric_code": "729",
         "phone_code": "249",
         "translations": {
             "kr": "수단",
@@ -4625,6 +4836,7 @@
         "name": "Suriname",
         "iso2": "SR",
         "iso3": "SUR",
+        "numeric_code": "740",
         "phone_code": "597",
         "translations": {
             "kr": "수리남",
@@ -4647,6 +4859,7 @@
         "name": "Svalbard And Jan Mayen Islands",
         "iso2": "SJ",
         "iso3": "SJM",
+        "numeric_code": "744",
         "phone_code": "47",
         "translations": {
             "kr": "스발바르 얀마옌 제도",
@@ -4669,6 +4882,7 @@
         "name": "Swaziland",
         "iso2": "SZ",
         "iso3": "SWZ",
+        "numeric_code": "748",
         "phone_code": "268",
         "translations": {
             "kr": "에스와티니",
@@ -4691,6 +4905,7 @@
         "name": "Sweden",
         "iso2": "SE",
         "iso3": "SWE",
+        "numeric_code": "752",
         "phone_code": "46",
         "translations": {
             "kr": "스웨덴",
@@ -4713,6 +4928,7 @@
         "name": "Switzerland",
         "iso2": "CH",
         "iso3": "CHE",
+        "numeric_code": "756",
         "phone_code": "41",
         "translations": {
             "kr": "스위스",
@@ -4735,6 +4951,7 @@
         "name": "Syria",
         "iso2": "SY",
         "iso3": "SYR",
+        "numeric_code": "760",
         "phone_code": "963",
         "translations": {
             "kr": "시리아",
@@ -4757,6 +4974,7 @@
         "name": "Taiwan",
         "iso2": "TW",
         "iso3": "TWN",
+        "numeric_code": "158",
         "phone_code": "886",
         "translations": {
             "kr": "대만",
@@ -4779,6 +4997,7 @@
         "name": "Tajikistan",
         "iso2": "TJ",
         "iso3": "TJK",
+        "numeric_code": "762",
         "phone_code": "992",
         "translations": {
             "kr": "타지키스탄",
@@ -4801,6 +5020,7 @@
         "name": "Tanzania",
         "iso2": "TZ",
         "iso3": "TZA",
+        "numeric_code": "834",
         "phone_code": "255",
         "translations": {
             "kr": "탄자니아",
@@ -4823,6 +5043,7 @@
         "name": "Thailand",
         "iso2": "TH",
         "iso3": "THA",
+        "numeric_code": "764",
         "phone_code": "66",
         "translations": {
             "kr": "태국",
@@ -4845,6 +5066,7 @@
         "name": "The Bahamas",
         "iso2": "BS",
         "iso3": "BHS",
+        "numeric_code": "044",
         "phone_code": "+1-242",
         "translations": {
             "kr": "바하마",
@@ -4867,6 +5089,7 @@
         "name": "Togo",
         "iso2": "TG",
         "iso3": "TGO",
+        "numeric_code": "768",
         "phone_code": "228",
         "translations": {
             "kr": "토고",
@@ -4889,6 +5112,7 @@
         "name": "Tokelau",
         "iso2": "TK",
         "iso3": "TKL",
+        "numeric_code": "772",
         "phone_code": "690",
         "translations": {
             "kr": "토켈라우",
@@ -4911,6 +5135,7 @@
         "name": "Tonga",
         "iso2": "TO",
         "iso3": "TON",
+        "numeric_code": "776",
         "phone_code": "676",
         "translations": {
             "kr": "통가",
@@ -4933,6 +5158,7 @@
         "name": "Trinidad And Tobago",
         "iso2": "TT",
         "iso3": "TTO",
+        "numeric_code": "780",
         "phone_code": "+1-868",
         "translations": {
             "kr": "트리니다드 토바고",
@@ -4955,6 +5181,7 @@
         "name": "Tunisia",
         "iso2": "TN",
         "iso3": "TUN",
+        "numeric_code": "788",
         "phone_code": "216",
         "translations": {
             "kr": "튀니지",
@@ -4977,6 +5204,7 @@
         "name": "Turkey",
         "iso2": "TR",
         "iso3": "TUR",
+        "numeric_code": "792",
         "phone_code": "90",
         "translations": {
             "kr": "터키",
@@ -4999,6 +5227,7 @@
         "name": "Turkmenistan",
         "iso2": "TM",
         "iso3": "TKM",
+        "numeric_code": "795",
         "phone_code": "993",
         "translations": {
             "kr": "투르크메니스탄",
@@ -5021,6 +5250,7 @@
         "name": "Turks And Caicos Islands",
         "iso2": "TC",
         "iso3": "TCA",
+        "numeric_code": "796",
         "phone_code": "+1-649",
         "translations": {
             "kr": "터크스 케이커스 제도",
@@ -5043,6 +5273,7 @@
         "name": "Tuvalu",
         "iso2": "TV",
         "iso3": "TUV",
+        "numeric_code": "798",
         "phone_code": "688",
         "translations": {
             "kr": "투발루",
@@ -5065,6 +5296,7 @@
         "name": "Uganda",
         "iso2": "UG",
         "iso3": "UGA",
+        "numeric_code": "800",
         "phone_code": "256",
         "translations": {
             "kr": "우간다",
@@ -5087,6 +5319,7 @@
         "name": "Ukraine",
         "iso2": "UA",
         "iso3": "UKR",
+        "numeric_code": "804",
         "phone_code": "380",
         "translations": {
             "kr": "우크라이나",
@@ -5109,6 +5342,7 @@
         "name": "United Arab Emirates",
         "iso2": "AE",
         "iso3": "ARE",
+        "numeric_code": "784",
         "phone_code": "971",
         "translations": {
             "kr": "아랍에미리트",
@@ -5131,6 +5365,7 @@
         "name": "United Kingdom",
         "iso2": "GB",
         "iso3": "GBR",
+        "numeric_code": "826",
         "phone_code": "44",
         "translations": {
             "kr": "영국",
@@ -5153,6 +5388,7 @@
         "name": "United States",
         "iso2": "US",
         "iso3": "USA",
+        "numeric_code": "840",
         "phone_code": "1",
         "translations": {
             "kr": "미국",
@@ -5175,6 +5411,7 @@
         "name": "United States Minor Outlying Islands",
         "iso2": "UM",
         "iso3": "UMI",
+        "numeric_code": "581",
         "phone_code": "1",
         "translations": {
             "kr": "미국령 군소 제도",
@@ -5197,6 +5434,7 @@
         "name": "Uruguay",
         "iso2": "UY",
         "iso3": "URY",
+        "numeric_code": "858",
         "phone_code": "598",
         "translations": {
             "kr": "우루과이",
@@ -5219,6 +5457,7 @@
         "name": "Uzbekistan",
         "iso2": "UZ",
         "iso3": "UZB",
+        "numeric_code": "860",
         "phone_code": "998",
         "translations": {
             "kr": "우즈베키스탄",
@@ -5241,6 +5480,7 @@
         "name": "Vanuatu",
         "iso2": "VU",
         "iso3": "VUT",
+        "numeric_code": "548",
         "phone_code": "678",
         "translations": {
             "kr": "바누아투",
@@ -5263,6 +5503,7 @@
         "name": "Vatican City State (Holy See)",
         "iso2": "VA",
         "iso3": "VAT",
+        "numeric_code": "336",
         "phone_code": "379",
         "translations": {
             "kr": "바티칸 시국",
@@ -5285,6 +5526,7 @@
         "name": "Venezuela",
         "iso2": "VE",
         "iso3": "VEN",
+        "numeric_code": "862",
         "phone_code": "58",
         "translations": {
             "kr": "베네수엘라",
@@ -5307,6 +5549,7 @@
         "name": "Vietnam",
         "iso2": "VN",
         "iso3": "VNM",
+        "numeric_code": "704",
         "phone_code": "84",
         "translations": {
             "kr": "베트남",
@@ -5329,6 +5572,7 @@
         "name": "Virgin Islands (British)",
         "iso2": "VG",
         "iso3": "VGB",
+        "numeric_code": "092",
         "phone_code": "+1-284",
         "translations": {
             "kr": "영국령 버진아일랜드",
@@ -5351,6 +5595,7 @@
         "name": "Virgin Islands (US)",
         "iso2": "VI",
         "iso3": "VIR",
+        "numeric_code": "850",
         "phone_code": "+1-340",
         "translations": {
             "kr": "미국령 버진아일랜드",
@@ -5372,6 +5617,7 @@
         "name": "Wallis And Futuna Islands",
         "iso2": "WF",
         "iso3": "WLF",
+        "numeric_code": "876",
         "phone_code": "681",
         "translations": {
             "kr": "왈리스 푸투나",
@@ -5394,6 +5640,7 @@
         "name": "Western Sahara",
         "iso2": "EH",
         "iso3": "ESH",
+        "numeric_code": "732",
         "phone_code": "212",
         "translations": {
             "kr": "서사하라",
@@ -5416,6 +5663,7 @@
         "name": "Yemen",
         "iso2": "YE",
         "iso3": "YEM",
+        "numeric_code": "887",
         "phone_code": "967",
         "translations": {
             "kr": "예멘",
@@ -5438,6 +5686,7 @@
         "name": "Zambia",
         "iso2": "ZM",
         "iso3": "ZMB",
+        "numeric_code": "894",
         "phone_code": "260",
         "translations": {
             "kr": "잠비아",
@@ -5460,6 +5709,7 @@
         "name": "Zimbabwe",
         "iso2": "ZW",
         "iso3": "ZWE",
+        "numeric_code": "716",
         "phone_code": "263",
         "translations": {
             "kr": "짐바브웨",

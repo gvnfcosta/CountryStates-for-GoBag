@@ -6,6 +6,7 @@ class CountryStates {
   final String name;
   final String iso2;
   final String iso3;
+  final String numeric_code;
   final String phone_code;
   final Map<String, dynamic> translations;
   final List<State> states;
@@ -14,6 +15,7 @@ class CountryStates {
     this.name,
     this.iso2,
     this.iso3,
+    this.numeric_code,
     this.phone_code,
     this.translations,
     this.states,
@@ -27,6 +29,7 @@ class CountryStates {
       map['name'] as String,
       map['iso2'] as String,
       map['iso3'] as String,
+      map['numeric_code'] as String,
       map['phone_code'] as String,
       Map<String, dynamic>.from(map['translations']),
       List<State>.from(
@@ -56,6 +59,7 @@ class CountryStates {
       'name': name,
       'iso2': iso2,
       'iso3': iso3,
+      'numeric_code': numeric_code,
       'phone_code': phone_code,
       'translations': translations,
       'states': states.map((state) => state.toMap()).toList(),

@@ -1,10 +1,9 @@
-import 'state_model.dart';
-
 class Country {
   final int id;
   final String name;
   final String iso2;
   final String iso3;
+  final String numeric_code;
   final String phone_code;
   final Map<String, dynamic> translations;
 
@@ -13,6 +12,7 @@ class Country {
     required this.name,
     required this.iso2,
     required this.iso3,
+    required this.numeric_code,
     required this.phone_code,
     required this.translations,
   });
@@ -27,6 +27,7 @@ class Country {
       name: map['name'] as String,
       iso2: map['iso2'] as String,
       iso3: map['iso3'] as String,
+      numeric_code: map['numeric_code'] as String,
       phone_code: map['phone_code'] as String,
       translations: Map<String, dynamic>.from(map['translations']),
     );
@@ -42,6 +43,7 @@ class Country {
         iso2: map['iso2'] as String,
         iso3: map['iso3'] as String,
         phone_code: map['phone_code'] as String,
+        numeric_code: map['numeric_code'] as String,
         translations: Map<String, dynamic>.from(map['translations']),
       );
 
@@ -51,6 +53,7 @@ class Country {
       'name': name,
       'iso2': iso2,
       'iso3': iso3,
+      'numeric_code': numeric_code,
       'phone_code': phone_code,
       'translations': translations,
     };
