@@ -16,35 +16,46 @@ List<StatesCities> statesCities = [];
 
 main() async {
   final jsonCountryFile = File('${dir.path}/assets/go_bag_json/countries.json');
-
   final jsonCountryStatesFile =
       File('${dir.path}/assets/go_bag_json/countries+states.json');
-
-  // final jsonStatesCitiesFile =
-  //     File('${dir.path}/assets/origin_json/states+cities.json');
-
-  // final jsonCitiesFile = File('${dir.path}/assets/origin_json/cities.json');
+  final jsonCitiesFile = File('${dir.path}/assets/go_bag_json/cities.json');
 
   final jsonCountryString = jsonCountryFile.readAsStringSync();
   final jsonCountryStatesString = jsonCountryStatesFile.readAsStringSync();
-  // final jsonStatesCitiesString = jsonStatesCitiesFile.readAsStringSync();
-  // final jsonCitiesString = jsonCitiesFile.readAsStringSync();
+  final jsonCitiesString = jsonCitiesFile.readAsStringSync();
 
-  final countries = Country.fromListMap(jsonDecode(jsonCountryString));
+  // final countries = Country.fromListMap(jsonDecode(jsonCountryString));
+
+  //convertCities(cities);
+  final cities = City.fromListMap(jsonDecode(jsonCitiesString));
 
   final countriesStates =
       CountryStates.fromListMap(jsonDecode(jsonCountryStatesString));
 
+  final idFound = cities.where((element) => element.name.contains("Curitiba"));
+
+  final statesFound = countriesStates
+      .where((country) => country.states.any((state) => state.id == idFound));
+
+  // final statesFound = statesCities.where((state) => state.cities
+  //     .any((state) => state.name.contains('tiba')));
+
+  // final countrysFound = countriesStates.where((contry) =>
+  //     contry.states.any((state) => statesFound.any((e) => state.id == e.id)));
+
+  idFound.forEach((element) => print(element.state_id));
+  countriesStates.forEach(
+      (element) => element.states.forEach((element) => print(element.name)));
+  statesFound.forEach((element) => print(element.name));
+  // countrysFound.forEach((element) => print(element.name));
+
+  // final jsonStatesCitiesFile =
+  //     File('${dir.path}/assets/origin_json/states+cities.json');
+
+  // final jsonStatesCitiesString = jsonStatesCitiesFile.readAsStringSync();
+
   // final statesCities =
   //     StatesCities.fromListMap(jsonDecode(jsonStatesCitiesString));
-
-  final statesFound = statesCities
-      .where((state) => state.cities.any((city) => city.name.contains('tiba')));
-
-  final countrysFound = countriesStates.where((contry) =>
-      contry.states.any((state) => statesFound.any((e) => state.id == e.id)));
-
-  countrysFound.forEach((element) => print(element.name));
 
   // convertCountries(countries);
   //convertCountriesStates(countriesStates);
@@ -110,7 +121,7 @@ convertCountriesStates(List<CountryStates> data) {
       .writeAsStringSync(jsonE);
 }
 
-convertCities() {
+convertCities(List<City> cities) {
   print(cities[30].name);
 
   var jsonE = jsonEncode(cities.map((e) => e.toMap()).toList());
