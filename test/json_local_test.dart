@@ -2,9 +2,11 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:http/http.dart' as http;
+import 'back/json_http_test.dart';
 import 'city_model.dart';
 import 'country_model.dart';
 import 'country_state_model.dart';
+import 'git_json.dart';
 import 'states_cities.dart';
 
 final dir = Directory.current;
@@ -15,57 +17,68 @@ List<CountryStates> countryStates = [];
 List<StatesCities> statesCities = [];
 
 main() async {
-  final jsonCountryFile = File('${dir.path}/assets/go_bag_json/countries.json');
-  final jsonCountryStatesFile =
-      File('${dir.path}/assets/go_bag_json/countries+states.json');
-  final jsonCitiesFile = File('${dir.path}/assets/go_bag_json/cities.json');
+  ///// JSON FORM FILE
+  // final jsonCountryFile = File('${dir.path}/assets/go_bag_json/countries.json');
+  // final jsonCountryStatesFile =
+  //     File('${dir.path}/assets/go_bag_json/countries+states.json');
+  // final jsonCitiesFile = File('${dir.path}/assets/go_bag_json/cities.json');
 
-  final jsonCountryString = jsonCountryFile.readAsStringSync();
-  final jsonCountryStatesString = jsonCountryStatesFile.readAsStringSync();
-  final jsonCitiesString = jsonCitiesFile.readAsStringSync();
+  // final jsonCountryString = jsonCountryFile.readAsStringSync();
+  // final jsonCountryStatesString = jsonCountryStatesFile.readAsStringSync();
 
-  final countries = Country.fromListMap(jsonDecode(jsonCountryString));
+  ///// JOSN FROM GITHUB
+  final jsonCitiesString = gitCities();
+
+  final cities = City.fromListMap(jsonDecode(await jsonCitiesString));
+
+  cities.forEach((element) => print(element.name));
+
+  // final jsonCitiesString = jsonCitiesFile.readAsStringSync();
+
+  // final countries = Country.fromListMap(jsonDecode(jsonCountryString));
 
   //convertCities(cities);
-  final cities = City.fromListMap(jsonDecode(jsonCitiesString));
+  // final cities = City.fromListMap(jsonCities);
 
-  final countriesStates =
-      CountryStates.fromListMap(jsonDecode(jsonCountryStatesString));
+  // cities.forEach((city) => print(city.name));
+
+  // final countriesStates =
+  //     CountryStates.fromListMap(jsonDecode(jsonCountryStatesString));
 
   // final idFound = cities.where((element) => element.name.contains("Curitiba"));
 
   // final statesFound = countriesStates
   //     .where((country) => country.states.any((state) => state.id == idFound));
 
-  final myCountry = 'Brasil';
+  // final myCountry = 'Brasil';
 
-  final country = countries
-      .where((element) => element.translations.containsValue(myCountry));
+  // final country = countries
+  //     .where((element) => element.translations.containsValue(myCountry));
 
-  final countryCode = country.first.numeric_code;
+  // final countryCode = country.first.numeric_code;
 
-  final countryFound =
-      countries.where((element) => element.numeric_code == countryCode);
+  // final countryFound =
+  //     countries.where((element) => element.numeric_code == countryCode);
 
-  countryFound.forEach((element) => print('Meu Pais: ${element.name}'));
+  // countryFound.forEach((element) => print('Meu Pais: ${element.name}'));
 
-  final statesFound = countriesStates
-      .where((element) => element.name.contains(countryFound.first.name));
+  // final statesFound = countriesStates
+  //     .where((element) => element.name.contains(countryFound.first.name));
 
-  print('\nEstados do ${myCountry}:');
+  // print('\nEstados do ${myCountry}:');
 
-  final List<String> states = [];
+  // final List<String> states = [];
 
-  statesFound.forEach(
-      (country) => states.addAll(country.states.map((state) => state.name)));
+  // statesFound.forEach(
+  //     (country) => states.addAll(country.states.map((state) => state.name)));
 
-  states.forEach((element) => print(element));
+  // states.forEach((element) => print(element));
 
-  final myState = states[15];
+  // final myState = states[15];
 
-  final citiesFound = cities.where((element) => element.name == myState);
+  // final citiesFound = cities.where((element) => element.name == myState);
 
-  citiesFound.forEach((element) => print(element.name));
+  // citiesFound.forEach((element) => print(element.name));
 
   // final myState = statesFound.where((state) => state.);
 

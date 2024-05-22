@@ -13,6 +13,10 @@ class City {
     return list.map((map) => City.fromMap(map)).toList();
   }
 
+  static List<City> newListMap(List list) {
+    return list.map((map) => City.fromMap(map)).toList();
+  }
+
   factory City.fromMap(Map<String, dynamic> map) {
     return City(
       id: map['id'] as int,
