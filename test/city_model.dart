@@ -1,12 +1,12 @@
 class City {
   final int id;
   final int state_id;
-  final String name;
+  final String nome;
 
   City({
     required this.id,
     required this.state_id,
-    required this.name,
+    required this.nome,
   });
 
   static List<City> fromListMap(List list) {
@@ -17,7 +17,7 @@ class City {
     return City(
       id: map['id'] as int,
       state_id: map['state_id'] as int,
-      name: map['name'] as String,
+      nome: map['nome'] as String,
     );
   }
 
@@ -25,7 +25,7 @@ class City {
     return <String, dynamic>{
       'id': id,
       'state_id': state_id,
-      'name': name,
+      'nome': nome,
     };
   }
 }
